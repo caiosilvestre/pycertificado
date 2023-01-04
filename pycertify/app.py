@@ -1,5 +1,5 @@
 from flask import Flask
-from flaprova.ext import configuration
+from pycertify.ext import configuration
 
 def minimal_app():
     app = Flask(__name__)
