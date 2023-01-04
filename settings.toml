@@ -1,0 +1,6 @@
+[default]
+TITLE = "pycertify"
+EXTENSIONS = [
+"pycertify.blueprints.restapi",
+"pycertify.blueprints.views"
+]

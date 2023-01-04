@@ -1,0 +1,24 @@
+.centralizarmenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 70%;
+    align-items: center;
+}
+.centralizarmenudentro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dupla_botoes{
+    display:flex;
+    flex-direction: row;
+}
+.btn{
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.botoes{
+    display:flex;
+    flex-direction: row;
+}

@@ -1,0 +1,10 @@
+.containermenu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}

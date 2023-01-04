@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Prova{% endblock %}
+{% block styles %}
+<link href={{ url_for('static', filename='/css/index.css') }} rel = "stylesheet" type="text/css">
+{% endblock %}
+
+{% block content %}
+<div class="containermenu">
+  <h1>Escolha o teste:</h1>
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Provas
+    </button>
+    <ul class="dropdown-menu">
+        {% for prova in provas: %}
+        <li>
+          <form method="post" action="/{{prova}}">
+            <input  class="dropdown-item" type="submit" name="prova" value="{{prova.upper()}}">
+          </form>
+        </li>
+        {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}

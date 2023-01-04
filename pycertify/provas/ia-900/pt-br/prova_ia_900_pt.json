@@ -1,0 +1,562 @@
+{
+    "1": {
+        "question": "Qual servi\u00e7o da IA voc\u00ea deve usar para criar um bot de um documento de pergunta frequente (FAQ)?",
+        "answers": {
+            "a": "Yana Macker",
+            "b": "Entendimento de idiomas (Luis)",
+            "c": "An\u00e1lise de texto",
+            "d": "Texto da fala"
+        },
+        "correct_answer": {
+            "a": "A QNA Maker \u00e9 um servi\u00e7o de processamento de linguagem natural baseado em Clound (PNL) que permite criar uma camada de conversa\u00e7\u00e3o natural sobre seus dados.\u00c9 usado para encontrar a resposta mais apropriada para qualquer entrada de suas informa\u00e7\u00f5es da Base de Conhecimento Custom (KB)."
+        },
+        "explanation": {
+            "b": "O entendimento do idioma (LUIS) \u00e9 um servi\u00e7o de IA conversacional baseado em Clound que aplica a intelig\u00eancia de aprendizado de m\u00e1quina personalizado ao texto de linguagem natural e de linguagem natural de um usu\u00e1rio para prever o significado geral e retirar informa\u00e7\u00f5es relevantes e detalhadas.\nUma vers\u00e3o mais recente dos recursos de linguagem est\u00e1 dispon\u00edvel como parte do servi\u00e7o cognitivo do Azure para a linguagem.",
+            "c": "A an\u00e1lise de texto \u00e9 usada para insights mais profundos, como identificar um padr\u00e3o ou tend\u00eancia do texto n\u00e3o estruturado.\nPor exemplo, a an\u00e1lise de texto pode ser usada para entender um pico negativo na experi\u00eancia do cliente ou na popularidade de um produto.",
+            "d": "O servi\u00e7o de fala para texto do Azure analisa \u00e1udio em tempo real ou lote para transcrever a palavra falada para o texto."
+        },
+        "type": "multiple choice"
+    },
+    "2": {
+        "question": "Voc\u00ea constr\u00f3i um modelo de aprendizado de m\u00e1quina usando a interface automatizada do usu\u00e1rio de aprendizado de m\u00e1quina (UI). Voc\u00ea precisa garantir que o modelo atenda ao princ\u00edpio da transpar\u00eancia da Microsoft para a IA respons\u00e1vel.\nO que voc\u00ea deveria fazer?",
+        "answers": {
+            "a": "Defina o tipo de valida\u00e7\u00e3o como autom\u00e1tico.",
+            "b": "Ativar explique o melhor modelo.",
+            "c": "Defina a m\u00e9trica prim\u00e1ria para a precis\u00e3o.",
+            "d": "Defina itera\u00e7\u00f5es simult\u00e2neas m\u00e1ximas como 0."
+        },
+        "correct_answer": {
+            "b": "Ativar explique o melhor modelo"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "3": {
+        "question": "Qual cen\u00e1rio \u00e9 um exemplo de um bot webchat?",
+        "answers": {
+            "a": "Determine se as revis\u00f5es inseridas em um site para um concerto s\u00e3o positivas ou negativas e, em seguida, acumular um polegar para cima ou polegares emoji para as an\u00e1lises.",
+            "b": "Traduza para perguntas em ingl\u00eas inseridas pelos clientes em um quiosque para que a pessoa apropriada possa ligar para os clientes de volta.",
+            "c": "Aceite perguntas por e -mail e, em seguida, rotear as mensagens de email para a pessoa correta baseada no conte\u00fado da mensagem.",
+            "d": "A partir de uma interface do site, responda a perguntas comuns sobre eventos programados e compras de tickets para um festival de m\u00fasica."
+        },
+        "correct_answer": {
+            "d": "A partir de uma interface do site, responda a perguntas comuns sobre eventos programados e compras de tickets para um festival de m\u00fasica."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "4": {
+        "question": "Para o processo de aprendizado de m\u00e1quina, como voc\u00ea deve dividir dados para treinamento e avalia\u00e7\u00e3o?",
+        "answers": {
+            "a": "Use recursos para treinamento e r\u00f3tulos para avalia\u00e7\u00e3o.",
+            "b": "Divida aleatoriamente os dados em linhas para treinamento e linhas para avalia\u00e7\u00e3o.",
+            "c": "Use r\u00f3tulos para treinamento e recursos para avalia\u00e7\u00e3o.",
+            "d": "Divida aleatoriamente os dados em colunas para treinamento e colunas para avalia\u00e7\u00e3o."
+        },
+        "correct_answer": {
+            "b": "O m\u00f3dulo de dados dividido \u00e9 particularmente \u00fatil quando voc\u00ea precisa separar dados nos conjuntos de treinamento e teste.Use a op\u00e7\u00e3o Split linhas se desejar dividir os dados em duas partes. Voc\u00ea pode especificar a porcentagem de dados a serem colocados em cada divis\u00e3o, mas, por padr\u00e3o, os dados s\u00e3o divididos em 50-50.Voc\u00ea tamb\u00e9m pode randomizar a sele\u00e7\u00e3o de linhas em cada grupo e amostragem astratificada."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "5": {
+        "question": "Qual das alternativas a seguir \u00e9 a probabilidade calculada de uma classifica\u00e7\u00e3o de imagem correta.",
+        "answers": {
+            "a": "Precis\u00e3o",
+            "b": "Confian\u00e7a",
+            "c": "Erro quadrado m\u00e9dio da raiz",
+            "d": "Sentimento"
+        },
+        "correct_answer": {
+            "b": "Confian\u00e7a"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "6": {
+        "question": "Garantir que um sistema de IA n\u00e3o forne\u00e7a uma previs\u00e3o quando um campo importante contenha valores incomuns ou ausentes \u00e9 o princ\u00edpio da IA respons\u00e1vel.",
+        "answers": {
+            "a": "uma inclus\u00e3o",
+            "b": "uma privacidade e seguran\u00e7a",
+            "c": "uma confiabilidade e seguran\u00e7a",
+            "d": "uma transpar\u00eancia"
+        },
+        "correct_answer": {
+            "c": "uma confiabilidade e seguran\u00e7a"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "7": {
+        "question": "Garantir que a vari\u00e1vel num\u00e9rica nos dados de treinamento esteja em uma escala semelhante \u00e9 um exemplo de ***********",
+        "answers": {
+            "a": "Ingest\u00e3o de dados",
+            "b": "Engenharia de recursos",
+            "c": "Sele\u00e7\u00e3o de recursos",
+            "d": "Treinamento modelo"
+        },
+        "correct_answer": {
+            "c": "Sele\u00e7\u00e3o de recursos"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "8": {
+        "question": "Voc\u00ea deseja criar um modelo para prever vendas de sorvete com base em dados hist\u00f3ricos que incluem o total di\u00e1rio de vendas de sorvetes e meios meteorol\u00f3gicos.Qual servi\u00e7o do Azure voc\u00ea deve usar?",
+        "answers": {
+            "a": "Aprendizado de m\u00e1quina do Azure",
+            "b": "Azure Bot",
+            "c": "Linguagem",
+            "d": "Tudo est\u00e1 errado"
+        },
+        "correct_answer": {
+            "a": "O Aprendizado do Azure Machine permite treinar um modelo preditivo a partir dos dados existentes."
+        },
+        "explanation": {
+            "b": "O servi\u00e7o do Azure Bot fornece uma plataforma para a IA conversacional.",
+            "c": "O servi\u00e7o de idioma \u00e9 usado para entender e analisar o texto e criar aplicativos inteligentes."
+        },
+        "type": "multiple choice"
+    },
+    "9": {
+        "question": "A resposta interativa da pergunta inserida por um usu\u00e1rio como parte de um aplicativo \u00e9 um exemplo de ...",
+        "answers": {
+            "a": "detec\u00e7\u00e3o de anomalia",
+            "b": "vis\u00e3o computacional",
+            "c": "AI conversacional",
+            "d": "previs\u00e3o"
+        },
+        "correct_answer": {
+            "c": "AI conversacional"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "10": {
+        "question": "Voc\u00ea est\u00e1 projetando um aplicativo AL que usa imagens para detectar rachaduras nas janelas de edif\u00edcios e alerta quando um painel de janela deve ser reparado ou substitu\u00eddo.Qual carga de trabalho de AL \u00e9 descrita?",
+        "answers": {
+            "a": "Vis\u00e3o computacional",
+            "b": "Processamento de linguagem natural",
+            "c": "Detec\u00e7\u00e3o de anomalia",
+            "d": "Tudo est\u00e1 errado"
+        },
+        "correct_answer": {
+            "a": "Vis\u00e3o computacional, imagens do painel da janela do edif\u00edcio podem ser analisadas com vis\u00e3o computacional e classificadas em grupos com base na condi\u00e7\u00e3o do para -brisa."
+        },
+        "explanation": {
+            "b": "O processamento de linguagem natural \u00e9 usado para entender e analisar o texto e criar aplicativos inteligentes.",
+            "c": "A detec\u00e7\u00e3o de anomalia \u00e9 usada para analisar dados ao longo do tempo e identificar altera\u00e7\u00f5es incomuns."
+        },
+        "type": "multiple choice"
+    },
+    "11": {
+        "question": "A Acompany emprega uma equipe de agentes de atendimento ao cliente para fornecer suporte por telefone e e -mail aos clientes.A empresa desenvolve um Bot Webchat para fornecer respostas automatizadas para consultas comuns do cliente.\nQual benef\u00edcio comercial a empresa deve esperar como resultado da cria\u00e7\u00e3o da solu\u00e7\u00e3o de bots webchat?",
+        "answers": {
+            "a": "Aumento da venda",
+            "b": "Uma carga de trabalho reduzida para os agentes de atendimento ao cliente",
+            "c": "Melhor confiabilidade do produto",
+            "d": "Tudo est\u00e1 errado"
+        },
+        "correct_answer": {
+            "b": "Uma carga de trabalho reduzida para os agentes de atendimento ao cliente"
+        },
+        "explanation": {
+            "a": "Um bot de bate -papo na web \u00e9 apenas para responder consultas comuns ao cliente - n\u00e3o aumentar\u00e1 as vendas.",
+            "c": "N\u00e3o h\u00e1 rela\u00e7\u00e3o com a confiabilidade do produto que a empresa est\u00e1 vendendo e um bot de bate -papo na web."
+        },
+        "type": "multiple choice"
+    },
+    "12": {
+        "question": "Um aplicativo preditivo fornece sa\u00edda de \u00e1udio para usu\u00e1rios com defici\u00eancia visual.Qual princ\u00edpio do AL respons\u00e1vel \u00e9 refletido aqui?",
+        "answers": {
+            "a": "Transpar\u00eancia",
+            "b": "Inclus\u00e3o",
+            "c": "Justi\u00e7a"
+        },
+        "correct_answer": {
+            "b": "A inclus\u00e3o \u00e9 sobre como o AL deve trazer benef\u00edcios para todas as partes da sociedade, independentemente da capacidade f\u00edsica, g\u00eanero, orienta\u00e7\u00e3o sexual, etinicidade ou fator."
+        },
+        "explanation": {
+            "a": "A transpar\u00eancia \u00e9 sobre comunicar totalmente o objetivo do sistema, como ele funciona e quais limita\u00e7\u00f5es podem ser esperadas.",
+            "c": "Incorreta.A justi\u00e7a \u00e9 sobre o desenvolvimento de modelos e aplica\u00e7\u00f5es sem incorporar qualquer vi\u00e9s baseado em g\u00eanero, etnia ou outro fator que possa resultar em uma vantagem injusta ou desvantagem para grupos espec\u00edficos."
+        },
+        "type": "multiple choice"
+    },
+    "13": {
+        "question": "Voc\u00ea precisa determinar a localiza\u00e7\u00e3o dos carros em uma imagem para poder estimar a dist\u00e2ncia entre os carros.Que tipo de vis\u00e3o computacional voc\u00ea deve usar?",
+        "answers": {
+            "a": "Reconhecimento \u00f3ptico de caracteres (OCR)",
+            "b": "Detec\u00e7\u00e3o de objetos",
+            "c": "Classifica\u00e7\u00e3o da imagem",
+            "d": "Detec\u00e7\u00e3o de rosto"
+        },
+        "correct_answer": {
+            "b": "Detec\u00e7\u00e3o de objetos"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "14": {
+        "question": "Preencha a frase escolhendo a op\u00e7\u00e3o apropriada na \u00e1rea de resposta - o Azure Machine Learning Designer permite criar modelos de aprendizado de m\u00e1quina por:",
+        "answers": {
+            "a": "Adicionando e conectando m\u00f3dulos em tela visual",
+            "b": "Executando automaticamente tarefas de prepara\u00e7\u00e3o de dados comuns.",
+            "c": "Selecionando automaticamente um algoritmo para criar o modelo mais preciso.",
+            "d": "Usando uma experi\u00eancia de notebook de c\u00f3digo-primeiro."
+        },
+        "correct_answer": {
+            "a": "Adicionando e conectando m\u00f3dulos em tela visual"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "15": {
+        "question": "Sua empresa est\u00e1 explorando o uso de tecnologias de reconhecimento de voz em seus dispositivos dom\u00e9sticos inteligentes.A empresa deseja identificar quaisquer barreiras que possam deixar de fora grupos de usu\u00e1rios espec\u00edficos.Este exemplo de qual princ\u00edpio orientador da Microsoft para AL respons\u00e1vel?",
+        "answers": {
+            "a": "Responsabilidade",
+            "b": "Justi\u00e7a",
+            "c": "Inclus\u00e3o",
+            "d": "Privacidade e seguran\u00e7a"
+        },
+        "correct_answer": {
+            "c": "Inclus\u00e3o"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "16": {
+        "question": "Uma concession\u00e1ria de moradia deseja usar dados hist\u00f3ricos de vendas de apartamentos para treinar um modelo de aprendizado de m\u00e1quina.O modelo deve prever o pre\u00e7o de um apartamento usado com base em sua localiza\u00e7\u00e3o, tamanho e envelhecimento do apartamento.Que tipo de modelo de aprendizado de m\u00e1quina a concession\u00e1ria deve usar o aprendizado de m\u00e1quina automatizado para criar?",
+        "answers": {
+            "a": "Classifica\u00e7\u00e3o",
+            "b": "Regress\u00e3o",
+            "c": "Previs\u00e3o de s\u00e9ries temporais"
+        },
+        "correct_answer": {
+            "b": "Regress\u00e3o"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "17": {
+        "question": "Um banco deseja usar registros hist\u00f3ricos de reembolso do cart\u00e3o de cr\u00e9dito para categorizar os pedidos de cart\u00e3o de cr\u00e9dito como risco de baixo risco ou risco com base em caracter\u00edsticas como o valor do cr\u00e9dito, a receita do mutu\u00e1rio e o per\u00edodo de cr\u00e9dito.Que tipo de modelo de aprendizado de m\u00e1quina o banco deve usar o aprendizado de m\u00e1quina automatizado para criar?",
+        "answers": {
+            "a": "Classifica\u00e7\u00e3o",
+            "b": "Regress\u00e3o",
+            "c": "Previs\u00e3o de s\u00e9ries temporais"
+        },
+        "correct_answer": {
+            "a": "Classifica\u00e7\u00e3o"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "18": {
+        "question": "Retornar uma caixa delimitadora que indica a localiza\u00e7\u00e3o do ve\u00edculo em uma imagem \u00e9 um exemplo de:",
+        "answers": {
+            "a": "Detec\u00e7\u00e3o de imagem.",
+            "b": "Detec\u00e7\u00e3o de objetos.",
+            "c": "Reconhecedor de caracteres \u00f3pticos (OCR).",
+            "d": "Segmenta\u00e7\u00e3o sem\u00e2ntica."
+        },
+        "correct_answer": {
+            "b": "Detec\u00e7\u00e3o de objetos."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "19": {
+        "question": "Prevendo quantas horas de horas extras uma pessoa de entrega funcionar\u00e1 com base no n\u00famero de ordem recebida \u00e9 um exemplo de ...",
+        "answers": {
+            "a": "classifica\u00e7\u00e3o.",
+            "b": "clustering.",
+            "c": "regress\u00e3o"
+        },
+        "correct_answer": {
+            "c": "regress\u00e3o"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "20": {
+        "question": "Qual servi\u00e7o a seguir voc\u00ea deve usar para treinar um modelo de detec\u00e7\u00e3o de objetos usando imagens pr\u00f3prias",
+        "answers": {
+            "a": "Vis\u00e3o computacional",
+            "b": "Vis\u00e3o personalizada",
+            "c": "RECONHECIDO DE FORMULHOS",
+            "d": "Indexador de v\u00eddeo"
+        },
+        "correct_answer": {
+            "b": "Vis\u00e3o personalizada"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "21": {
+        "question": "Voc\u00ea est\u00e1 criando um pipeline de treinamento para um modelo de regress\u00e3o.Voc\u00ea usa um conjunto de dados que possui v\u00e1rias colunas num\u00e9ricas nas quais os valores est\u00e3o em diferentes escalas.Voc\u00ea deseja transformar as colunas num\u00e9ricas para que os valores sejam todos em uma escala semelhante.Voc\u00ea tamb\u00e9m deseja que a transforma\u00e7\u00e3o escala em rela\u00e7\u00e3o aos valores m\u00ednimo e m\u00e1ximo em cada coluna.Qual m\u00f3dulo voc\u00ea deve adicionar ao pipeline?",
+        "answers": {
+            "a": "Selecione colunas em um conjunto de dados",
+            "b": "Normalizar dados",
+            "c": "Dados ausentes limpos"
+        },
+        "correct_answer": {
+            "b": "Normalizar dados"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "22": {
+        "question": "***** \u00e9 usado para gerar recursos adicionais",
+        "answers": {
+            "a": "Engenharia de recursos",
+            "b": "Sele\u00e7\u00e3o de recursos",
+            "c": "Avalia\u00e7\u00e3o do modelo",
+            "d": "Treinamento modelo"
+        },
+        "correct_answer": {
+            "a": "Engenharia de recursos"
+        },
+        "explanation": {},
+        "type": "selection correct answers"
+    },
+    "23": {
+        "question": "Voc\u00ea usa o Azure Machine Learning Designer para criar um pipeline de treinamento para um modelo de classifica\u00e7\u00e3o.O que voc\u00ea deve fazer antes de implantar o modelo como servi\u00e7o?",
+        "answers": {
+            "a": "Crie um pipeline de infer\u00eancia a partir do pipeline de treinamento",
+            "b": "Adicione um m\u00f3dulo de avalia\u00e7\u00e3o do modelo ao pipeline de treinamento",
+            "c": "Clone o pipeline de treinamento com um nome diferente"
+        },
+        "correct_answer": {
+            "a": "Crie um pipeline de infer\u00eancia a partir do pipeline de treinamento"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "24": {
+        "question": "Voc\u00ea deseja usar o aprendizado de m\u00e1quina automatizado para treinar um modelo de regress\u00e3o com a melhor pontua\u00e7\u00e3o R2 poss\u00edvel.Como voc\u00ea deve configurar o experimento automatizado de aprendizado de m\u00e1quina?",
+        "answers": {
+            "a": "Defina a m\u00e9trica principal para a pontua\u00e7\u00e3o R2",
+            "b": "Bloqueie todos os algoritmos que n\u00e3o sejam o aumento de gradiente",
+            "c": "Ativar featuriza\u00e7\u00e3o"
+        },
+        "correct_answer": {
+            "a": "Defina a m\u00e9trica prim\u00e1ria para a pontua\u00e7\u00e3o R2.A m\u00e9trica prim\u00e1ria determina a m\u00e9trica usada para avaliar o modelo de melhor desempenho."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "25": {
+        "question": "Voc\u00ea envia uma imagem para a API de vis\u00e3o computacional e recebe de volta a imagem anotada mostrada na exposi\u00e7\u00e3o.",
+        "answers": {
+            "a": "Detec\u00e7\u00e3o de objetos",
+            "b": "Segmenta\u00e7\u00e3o sem\u00e2ntica",
+            "c": "Reconhecimento \u00f3ptico de caracteres (OCR)",
+            "d": "Classifica\u00e7\u00e3o da imagem"
+        },
+        "correct_answer": {
+            "a": "Detec\u00e7\u00e3o de objetos"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "26": {
+        "question": "Voc\u00ea est\u00e1 trabalhando em uma empresa de turismo e turismo.Sua empresa deseja usar o servi\u00e7o de vis\u00e3o computacional para analisar imagens de locais e identificar monumentos conhecidos.O que voc\u00ea deveria fazer?",
+        "answers": {
+            "a": "Recuperar os objetos na imagem.",
+            "b": "Recupere as categorias para a imagem que especifica o dom\u00ednio das celebridades.",
+            "c": "Recupere as categorias para a imagem, especificando o dom\u00ednio hist\u00f3rico."
+        },
+        "correct_answer": {
+            "c": "Recupere as categorias para a imagem, especificando o dom\u00ednio hist\u00f3rico."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "27": {
+        "question": "Por que voc\u00ea dividiu dados em conjuntos de treinamento e valida\u00e7\u00e3o?",
+        "answers": {
+            "a": "Os dados s\u00e3o divididos em dois conjuntos para criar dois modelos, um modelo com o conjunto de treinamento e um modelo diferente com o conjunto de valida\u00e7\u00e3o.",
+            "b": "A divis\u00e3o de dados em dois conjuntos permite comparar os r\u00f3tulos que o modelo prev\u00ea com os r\u00f3tulos conhecidos reais no conjunto de dados original.",
+            "c": "Apenas divida dados quando voc\u00ea usa o designer de aprendizado de m\u00e1quina do Azure, n\u00e3o em outros cen\u00e1rios de aprendizado de m\u00e1quina."
+        },
+        "correct_answer": {
+            "b": "A divis\u00e3o de dados em dois conjuntos permite comparar os r\u00f3tulos que o modelo prev\u00ea com os r\u00f3tulos conhecidos reais no conjunto de dados original."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "28": {
+        "question": "Voc\u00ea est\u00e1 processando fotos de corredores em uma corrida.Voc\u00ea precisa ler os n\u00fameros nas camisas dos corredores para identificar os corredores nas fotos.Que tipo de vis\u00e3o computacional voc\u00ea deve usar?",
+        "answers": {
+            "a": "reconhecimento facial",
+            "b": "Reconhecimento \u00f3ptico de caracteres (OCR)",
+            "c": "Segmenta\u00e7\u00e3o sem\u00e2ntica",
+            "d": "Detec\u00e7\u00e3o de objetos"
+        },
+        "correct_answer": {
+            "b": "Reconhecimento \u00f3ptico de caracteres (OCR)"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "29": {
+        "question": "Que tipo de aprendizado de m\u00e1quina voc\u00ea deve usar para identificar grupos de pessoas que t\u00eam h\u00e1bitos de compra semelhantes?",
+        "answers": {
+            "a": "classifica\u00e7\u00e3o",
+            "b": "regress\u00e3o",
+            "c": "clustering"
+        },
+        "correct_answer": {
+            "c": "clustering"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "30": {
+        "question": "Do Azure Machine Learning Designer, para implantar um pipeline de infer\u00eancia em tempo real como um servi\u00e7o para que outras pessoas consumam, voc\u00ea deve implantar o modelo em qual dos seguintes:",
+        "answers": {
+            "a": "um servi\u00e7o da web local",
+            "b": "Inst\u00e2ncias do cont\u00eainer do Azure",
+            "c": "Servi\u00e7os do Azure Kubernetes (AKs)",
+            "d": "Computador de aprendizado de m\u00e1quina azul"
+        },
+        "correct_answer": {
+            "c": "Servi\u00e7os do Azure Kubernetes (AKs)"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "31": {
+        "question": "Qual servi\u00e7o voc\u00ea deve usar para extrair pares de texto, chave/valor e dados da tabela automaticamente dos documentos digitalizados?",
+        "answers": {
+            "a": "RECONHECIDO DE FORMULHOS",
+            "b": "An\u00e1lise de texto",
+            "c": "Entendimento da linguagem",
+            "d": "Vis\u00e3o personalizada"
+        },
+        "correct_answer": {
+            "a": "RECONHECIDO DE FORMULHOS"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "32": {
+        "question": "Voc\u00ea deseja usar o servi\u00e7o de vis\u00e3o computacional para identificar a localiza\u00e7\u00e3o de itens individuais em uma imagem.Qual dos seguintes recursos voc\u00ea deve recuperar?",
+        "answers": {
+            "a": "Objetos",
+            "b": "Tag",
+            "c": "Categorias"
+        },
+        "correct_answer": {
+            "a": "Objetos"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "33": {
+        "question": "Prever quantos ve\u00edculos viajar\u00e3o pela ponte em um determinado dia \u00e9 um exemplo de ...",
+        "answers": {
+            "a": "classifica\u00e7\u00e3o",
+            "b": "regress\u00e3o",
+            "c": "clustering"
+        },
+        "correct_answer": {
+            "b": "regress\u00e3o"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "34": {
+        "question": "Voc\u00ea deseja usar o servi\u00e7o de vis\u00e3o computacional para analisar imagens e usar o servi\u00e7o de idioma para analisar o texto.\u00c9 um requisito obrigat\u00f3rio que os desenvolvedores usem apenas uma chave e terminal para acessar todos os seus servi\u00e7os.Que tipo de recurso voc\u00ea deve criar em sua assinatura do Azure?",
+        "answers": {
+            "a": "Vis\u00e3o computacional",
+            "b": "Servi\u00e7os cognitivos",
+            "c": "Vis\u00e3o personalizada"
+        },
+        "correct_answer": {
+            "b": "Servi\u00e7os cognitivos"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "35": {
+        "question": "Voc\u00ea precisa desenvolver um aplicativo m\u00f3vel para os funcion\u00e1rios digitalizar e armazenar suas despesas durante a viagem.Que tipo de vis\u00e3o computacional voc\u00ea deve usar?",
+        "answers": {
+            "a": "Segmenta\u00e7\u00e3o sem\u00e2ntica",
+            "b": "Classifica\u00e7\u00e3o da imagem",
+            "c": "Detec\u00e7\u00e3o de objetos",
+            "d": "Reconhecimento \u00f3ptico de caracteres (OCR)"
+        },
+        "correct_answer": {
+            "d": "Reconhecimento \u00f3ptico de caracteres (OCR)"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "36": {
+        "question": "Voc\u00ea usa um pipeline do Azure Machine Learning Designer para treinar e testar um modelo de classifica\u00e7\u00e3o bin\u00e1ria.Voc\u00ea revisa as m\u00e9tricas de desempenho do modelo em um m\u00f3dulo de modelo de avalia\u00e7\u00e3o e observa que ele possui uma pontua\u00e7\u00e3o de AUC de 0,3.O que voc\u00ea pode concluir sobre o modelo?",
+        "answers": {
+            "a": "O modelo pode explicar 30% da varia\u00e7\u00e3o entre r\u00f3tulos verdadeiros e previstos.",
+            "b": "O modelo prev\u00ea com precis\u00e3o 70% dos casos de teste.",
+            "c": "O modelo tem um desempenho pior do que a adivinha\u00e7\u00e3o aleat\u00f3ria."
+        },
+        "correct_answer": {
+            "c": "O modelo tem um desempenho pior do que a adivinha\u00e7\u00e3o aleat\u00f3ria."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "37": {
+        "question": "Voc\u00ea usa o Azure Machine Learning Designer para criar um pipeline de treinamento para um modelo de classifica\u00e7\u00e3o.O que voc\u00ea deve fazer antes de implantar o modelo como servi\u00e7o?",
+        "answers": {
+            "a": "Crie um pipeline de Nference a partir do pipeline de treinamento.",
+            "b": "Adicione um m\u00f3dulo de avalia\u00e7\u00e3o do modelo ao pipeline de treinamento.",
+            "c": "Clone o pipeline de treinamento com um nome diferente."
+        },
+        "correct_answer": {
+            "a": "Crie um pipeline de Nference a partir do pipeline de treinamento."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "38": {
+        "question": "Voc\u00ea est\u00e1 usando o Azure Machine Learning Designer para criar um pipeline de treinamento para um modelo de classifica\u00e7\u00e3o bin\u00e1ria.Voc\u00ea adicionou um conjunto de dados contendo recursos e etiquetas, um m\u00f3dulo de Decis\u00e3o de Decis\u00e3o de duas classes e um m\u00f3dulo de modelo de trem.Voc\u00ea planeja usar o modelo de pontua\u00e7\u00e3o e avaliar os m\u00f3dulos de modelo para testar o modelo treinado com um subconjunto do conjunto de dados que n\u00e3o foi usado para treinamento.O que \u00e9 outro m\u00f3dulo que voc\u00ea deve adicionar?",
+        "answers": {
+            "a": "Junte -se a dados",
+            "b": "Dados divididos",
+            "c": "Selecione coluna no conjunto de dados"
+        },
+        "correct_answer": {
+            "b": "Dados divididos"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "39": {
+        "question": "A capacidade de extrair subtotais e totais de um recibo \u00e9 uma capacidade do",
+        "answers": {
+            "a": "vis\u00e3o personalizada",
+            "b": "RECONHECIDO DE FORMULHOS",
+            "c": "Reconhecedor da tinta",
+            "d": "An\u00e1lise de texto"
+        },
+        "correct_answer": {
+            "b": "RECONHECIDO DE FORMULHOS"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "40": {
+        "question": "Voc\u00ea est\u00e1 construindo uma ferramenta que processar\u00e1 imagens de lojas de varejo e identificar os produtos dos concorrentes.A solu\u00e7\u00e3o usar\u00e1 um modelo personalizado.Qual servi\u00e7o cognitivo do Azure voc\u00ea deve usar?",
+        "answers": {
+            "a": "Vis\u00e3o personalizada",
+            "b": "RECONHECIDO DE FORMULHOS",
+            "c": "Cara",
+            "d": "Vis\u00e3o computacional"
+        },
+        "correct_answer": {
+            "a": "Vis\u00e3o personalizada"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}

@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}Prova{% endblock %}
+{% block styles %}
+<link href={{ url_for('static', filename='/css/show_question.css') }} rel = "stylesheet" type="text/css">
+<link href={{ url_for('static', filename='/css/show_question.css') }} rel = "stylesheet" type="text/css">
+{% endblock %}
+{% block content %}
+<div class="centralizarquestion">
+  <div class="centralizarquestiondentro container-fluid">
+    <fieldset class="form-group">
+      <legend class="mt-4">Tradução</legend>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="traducao()">
+        <label class="form-check-label" for="flexSwitchCheckDefault">EN</label>
+      </div>
+    </fieldset>
+    <div class="card border-primary mb-3" style="width: 90%;">
+      <div class="card-header"><h4 class="card-header" id="question">{{question['question']}}</h4></div>
+        <div class="card-body">
+          <ul class="nav nav-tabs" style="flex-direction: column;" role="tablist">
+            <li class="nav-item" role="presentation">
+                {% for letter,answers in question['answers'].items():%}
+                      <textarea  class="nav-link form-control" style="resize: none;text-align: left; cursor: default;pointer-events: none;" data-bs-toggle="tab"  aria-selected="false" role="tab" type="submit" name="{{letter}}" readonly>{{letter}}) {{answers}}</textarea>
+                {% endfor %}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class = "controle">
+        <form id= "back_question" method="post" action="/{{prova}}/{% if numquestion > 1 %}{{numquestion-1}}{% else %}{{numquestion}}{% endif %}">
+          <input  class="btn btn-info" type="submit" name="acao" value="<">
+        </form>
+        <form id="resposta" method="post" action="">
+          <input  class="btn btn-info" type="submit" name="explicacao" value="Explicação">
+        </form>
+        <form id= "next_question" method="post" action="/{{prova}}/{{numquestion+1}}">
+          <input  class="btn btn-info" type="submit" name="acao" value=">">
+        </form>
+      </div>
+      <div class="alert alert-dismissible alert-success">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        {% for letter,answers in question['correct_answer'].items():%}
+        <a id="explanation" >{{letter}}) {{answers}}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src={{ url_for('static', filename='js/question_answer.js') }}></script>
+
+<script>
+answer = '{{letter_answer}}';
+correct_answer = '{{letter_answer_correct}}'
+
+let answer_choose = document.getElementsByName(answer)[0];
+
+let answer_correct = document.getElementsByName(correct_answer)[0];
+if(answer_choose == answer_correct){
+answer_correct.style.color= "#00ff2b";
+answer_correct.classList.add("active");
+}else{
+  answer_choose.style.color= "#ff1e1e";
+  answer_correct.style.color= "#00ff2b";
+  answer_choose.classList.add("active");
+  answer_correct.classList.add("active");
+}
+</script>
+<script>
+  function traducao(){
+    let switch_idioma = document.getElementsByClassName("form-check-input")[0] ;
+    {% for letter,answer in prova_pt['answers'].items():%}
+    let {{letter}} = document.getElementsByName('{{letter}}')[0]; 
+    {% endfor %}
+    let label_idioma = document.getElementsByClassName("form-check-label")[0]
+    let question = document.getElementById("question")
+    let answers = document.getElementsByClassName("nav-link form-control");
+    let explanation = document.getElementById("explanation")
+    if(switch_idioma.checked){
+        label_idioma.innerHTML = "PT";
+        question.innerHTML = "{{prova_pt['question'].replace('\n','')}}";
+        {% for letter,answer in prova_pt['answers'].items():%}
+        {{letter}}.innerHTML = "{{letter}}){{answer}}";
+        {% endfor %}
+        {% for letter,answer in prova_pt['correct_answer'].items():%}
+          explanation.innerHTML = "{{letter}}) {{answer}}";
+        {% endfor %}
+      }
+    else{
+        label_idioma.innerHTML = "EN"
+        question.innerHTML = "{{question['question'].replace('\n','')}}";
+        {% for letter,answer in question['answers'].items():%}
+        {{letter}}.innerHTML = "{{letter}}){{answer}}";
+        {% endfor %}
+        {% for letter,answer in question['correct_answer'].items():%}
+          explanation.innerHTML = "{{letter}}) {{answer}}";
+        {% endfor %}
+    }
+}
+</script>
+{% endblock %}

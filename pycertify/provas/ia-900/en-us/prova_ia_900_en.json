@@ -1,0 +1,562 @@
+{
+    "1": {
+        "question": "Which IA service should you use to create a bot from a frequently asked question (FAQ) document?",
+        "answers": {
+            "a": "QnA Maker",
+            "b": "Language Understanding (LUIS)",
+            "c": "Text Analytics",
+            "d": "Speech Text"
+        },
+        "correct_answer": {
+            "a": "QnA Maker is a clound-based Natural Language Processing (NLP) service that allows you to create a natural conversational layer over your data. It is used to find the most appropriate answer for any input from your custom knowledge base (KB) information."
+        },
+        "explanation": {
+            "b": "Language Understanding (LUIS) is a clound-based conversational AI service that applies custom machine-learning intelligence to a user's conversational, natural language text to predict overall meaning, and pull out relevant, detailed information.\nA newer version of language Uderstanding capabilities are now available as part of Azure Cognitive Service for Language.",
+            "c": "Text analytics is used for deeper insights, like identifying a pattern or trend from the unstructured text.\nFor Example, text analytics can be used to understand a negative spike in the customer experience or popularity of a product.",
+            "d": "The Azure speech-to-text service analyzes audio in real-time or batch to transcribe the spoken word into text."
+        },
+        "type": "multiple choice"
+    },
+    "2": {
+        "question": "You build a machine learning model by using the automated machine learning user interface(UI).You need to ensure that the model meets the Microsoft transparency principle for responsible IA.\nWhat should you do?",
+        "answers": {
+            "a": "Set Validation type to Auto.",
+            "b": "Enable Explain best model.",
+            "c": "Set Primary metric to accuracy.",
+            "d": "Set Max concurrent iterations to 0."
+        },
+        "correct_answer": {
+            "b": "Enable Explain best model"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "3": {
+        "question": "Which scenario is an example of a webchat bot?",
+        "answers": {
+            "a": "Determine whether reviews entered on a website for a concert are positive or negative, and thenadd a thumbs up or thumbs down emoji to the reviews.",
+            "b": "Translate into English questions entered by customers at a kiosk so that the appropriate person can call the customers back.",
+            "c": " Accept questions through email, and then route the email messages to the correct personbased on the content of the message.",
+            "d": " From a website interface, answer common questions about scheduled events and ticketpurchases for a music festival."
+        },
+        "correct_answer": {
+            "d": "From a website interface, answer common questions about scheduled events and ticketpurchases for a music festival."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "4": {
+        "question": "For machine learning process, how should you split data for training and evaluation?",
+        "answers": {
+            "a": "Use features for training and labels for evaluation.",
+            "b": " Randomly split the data into rows for training and rows for evaluation.",
+            "c": "Use labels for training and features for evaluation.",
+            "d": "Randomly split the data into columns for training and columns for evaluation."
+        },
+        "correct_answer": {
+            "b": "The Split Data module is particularly useful when you need to separate data into training and testing sets. Use the Split Rows option if you want to divide the data into two parts.You can specify the percentage of data to put in each split, but by default, the data isdivided 50-50. You can also randomize the selection of rows in each group and usestratified sampling."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "5": {
+        "question": "Which of the following is the calculated probability of a correct image classification.",
+        "answers": {
+            "a": "Accuracy",
+            "b": "Confidence",
+            "c": "Root Mean Square Erro",
+            "d": "Sentiment"
+        },
+        "correct_answer": {
+            "b": "Confidence"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "6": {
+        "question": "Ensuring an IA system does not provide a prediction when important field contain unusual or missing values is **** principle for responsible AI.",
+        "answers": {
+            "a": "an inclusiveness",
+            "b": "a privacy and security",
+            "c": "a realiability and safety",
+            "d": "a transparency"
+        },
+        "correct_answer": {
+            "c": "a realiability and safety"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "7": {
+        "question": "Ensuring that the numeric variable in traing data are on a similar scale is an example of *********",
+        "answers": {
+            "a": "data ingestion",
+            "b": "feature engineering",
+            "c": "feature selection",
+            "d": "model training"
+        },
+        "correct_answer": {
+            "c": "feature selection"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "8": {
+        "question": "You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales total and weather meansurements. which Azure service should you use?",
+        "answers": {
+            "a": "Azure Machine Learning",
+            "b": "Azure Bot",
+            "c": "Language",
+            "d": "All is wrong"
+        },
+        "correct_answer": {
+            "a": "Azure Machine Learning, enables you to train a predictive model from the existing data."
+        },
+        "explanation": {
+            "b": "The Azure Bot Service provides a platform for conversational AI.",
+            "c": "The Language Service is used for understanding and analyzing text and creating intelligent applications."
+        },
+        "type": "multiple choice"
+    },
+    "9": {
+        "question": "The interactive answering of question entered by a user as part of an application is an example of ...",
+        "answers": {
+            "a": "anomaly detection",
+            "b": "computer vision",
+            "c": "conversational IA",
+            "d": "forecasting"
+        },
+        "correct_answer": {
+            "c": "conversational IA"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "10": {
+        "question": "You are designing an Al application that uses images to detect cracks in window-panes of buildings and warns when a window-pane should be repaired or replaced. What Al workload is described?",
+        "answers": {
+            "a": "Computer Vision",
+            "b": "Natural Language Processing",
+            "c": "Anomaly Detection",
+            "d": "All is wrong"
+        },
+        "correct_answer": {
+            "a": "Computer Vision,Images of the building's window pane can be analyzed with computer vision and classified into groups based on windshield condition."
+        },
+        "explanation": {
+            "b": "Natural Language Processing is used to understand and analyze text and create intelligent applications.",
+            "c": "Anomaly Detection is used to analyze data over time and identify unusual changes."
+        },
+        "type": "multiple choice"
+    },
+    "11": {
+        "question": "Acompany employs a team of customer service agents to provide telephone and email support to customers. The company develops a webchat bot to provide automated answers to common customer queries.\nWhich business benefit should the company expect as a result of creating the webchat bot solution?",
+        "answers": {
+            "a": "Increased sale",
+            "b": "A reduced workload for the customer service agents",
+            "c": "Improved product reliability",
+            "d": "All is wrong"
+        },
+        "correct_answer": {
+            "b": "A reduced workload for the customer service agents"
+        },
+        "explanation": {
+            "a": "A web chat Bot is just for answer common customer queries - It will not increase sales.",
+            "c": "There is no relation with product reliability which company is selling and a web chat bot."
+        },
+        "type": "multiple choice"
+    },
+    "12": {
+        "question": "A predictive app provides audio output for visually impaired users. Which principle of Responsible Al is reflected here?",
+        "answers": {
+            "a": "Transparency",
+            "b": "Inclusiveness",
+            "c": "Fairness"
+        },
+        "correct_answer": {
+            "b": "Inclusiveness is about how Al should bring benefits to all parts of society, regardless of physical ability, gender, sexual orientation, ethinicity, or ther factor."
+        },
+        "explanation": {
+            "a": "Transparency is about fully communicating the purpose of the system, how it works, and what limitations may be expected.",
+            "c": "Incorrect. Fairness is about developing models and applications without incorporating any bias based on gender, ethnicity, or other factor that might result in an unfair advantage or disadvantage to specific groups."
+        },
+        "type": "multiple choice"
+    },
+    "13": {
+        "question": "You need to determine the location of cars in an image so that you can estimate the distance between the cars. Which type of computer vision should you use?",
+        "answers": {
+            "a": "Optical character recognition (OCR)",
+            "b": "Object detection",
+            "c": "Image classification",
+            "d": "Face detection"
+        },
+        "correct_answer": {
+            "b": "object detection"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "14": {
+        "question": "Complete the sentence by choosing appropriate option in the answer area - Azure Machine Learning designer lets you create machine learning models by:",
+        "answers": {
+            "a": "Adding and connecting modules on visual canvas",
+            "b": "Automatically performing common data preparation tasks.",
+            "c": "Automatically selecting an algorithm to build the most accurate model.",
+            "d": "using a code-first notebook experience."
+        },
+        "correct_answer": {
+            "a": "Adding and connecting modules on visual canvas"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "15": {
+        "question": "Your company is exploring the use of voice recognition technologies in its smart home devices. The company wants to identify any barriers that might unintentionally leave out specific user groups. This an example of which Microsoft guiding principle for responsible Al?",
+        "answers": {
+            "a": "Accountability",
+            "b": "Fairness",
+            "c": "Inclusiveness",
+            "d": "Privacy and segurity"
+        },
+        "correct_answer": {
+            "c": "Inclusiveness"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "16": {
+        "question": "A housing dealership wants to use historic apartment sales data to train a machine learning model. The model should predict the price of a pre-owned apartment based on its location, size and apartment aging. What kind of machine learning model should the dealership use automated machine learning to create?",
+        "answers": {
+            "a": "Classification",
+            "b": "Regression",
+            "c": "Time series forecasting"
+        },
+        "correct_answer": {
+            "b": "Regression"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "17": {
+        "question": "A bank wants to use historic credit card repayment records to categorize credit card applications as low-risk or hight-risk based on characteristics like the credit amount, the income of the borrower and the credit period. What kind of machine learning model should the bank use automated machine learning to create?",
+        "answers": {
+            "a": "Classification",
+            "b": "Regression",
+            "c": "Time Series Forecasting"
+        },
+        "correct_answer": {
+            "a": "Classification"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "18": {
+        "question": "Returning a bounding box that indicates the location of vehicle in an image is an example of:",
+        "answers": {
+            "a": "image detection.",
+            "b": "object detection.",
+            "c": "optical character recognizer (OCR).",
+            "d": "semantic segmentation."
+        },
+        "correct_answer": {
+            "b": "object detection."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "19": {
+        "question": "Predicting how many hours of overtime a delivery person will work based on the number of order received is an example of ...",
+        "answers": {
+            "a": "classification.",
+            "b": "clustering.",
+            "c": "regression"
+        },
+        "correct_answer": {
+            "c": "regression"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "20": {
+        "question": "which following service should you use to train an object detection model by using own images",
+        "answers": {
+            "a": "Computer Vision",
+            "b": "Custom Vision",
+            "c": "Form Recognizer",
+            "d": "Video Indexer"
+        },
+        "correct_answer": {
+            "b": "Custom Vision"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "21": {
+        "question": "You are creating a training pipeline for a regression model. You use a dataset that has multiple numeric columns in which the values are on different scales. You want to transform the numeric columns so that the values are all on a similar scale. You also want the transformation to scale relative to the minimum and maximum values in each column. Which module should you add to the pipeline?",
+        "answers": {
+            "a": "Select Columns in a Dataset",
+            "b": "Normalize Data",
+            "c": "Clean Missing Data"
+        },
+        "correct_answer": {
+            "b": "Normalize Data"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "22": {
+        "question": "***** is used to generate additional features",
+        "answers": {
+            "a": "Feature Engineering",
+            "b": "Feature selection",
+            "c": "Model evaluation",
+            "d": "Model training"
+        },
+        "correct_answer": {
+            "a": "Feature Engineering"
+        },
+        "explanation": {},
+        "type": "selection correct answers"
+    },
+    "23": {
+        "question": "You use Azure Machine Learning designer to create a training pipeline for a classification model. What must you do before deploying the model as a service?",
+        "answers": {
+            "a": "Create an inference pipeline from the training pipeline",
+            "b": "Add an Evaluate Model module to the training pipeline",
+            "c": "Clone the training pipeline with a different name"
+        },
+        "correct_answer": {
+            "a": "Create an inference pipeline from the training pipeline"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "24": {
+        "question": " You want to use automated machine learning to train a regression model with the best possible R2 score. How should you configure the automated machine learning experiment?",
+        "answers": {
+            "a": "Set the Primary metric to R2 score",
+            "b": "Block all algorithms other than GradientBoosting",
+            "c": "Enable featurization"
+        },
+        "correct_answer": {
+            "a": "Set the Primary metric to R2 score. The primary metric determines the metric used to evaluate the best performing model."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "25": {
+        "question": "You send an image to Computer Vision API and receive back the annotated image shown in the exhibit.",
+        "answers": {
+            "a": "object detection",
+            "b": "semantic segmentation",
+            "c": "optical charactere recognition (OCR)",
+            "d": "image classification"
+        },
+        "correct_answer": {
+            "a": "object detection"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "26": {
+        "question": "You are working in a tour & tourism company. Your company wants to use the Computer Vision service to analyze images of locations and identify well-known monuments. What should you do?",
+        "answers": {
+            "a": "Retrive the objects in the image.",
+            "b": "Retrive the categories for the image specifying the celecrities domain.",
+            "c": "Retrive the categories for the image, specifying the landmark domain."
+        },
+        "correct_answer": {
+            "c": "Retrive the categories for the image, specifying the landmark domain."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "27": {
+        "question": "Why do you split data into training and validation sets?",
+        "answers": {
+            "a": "Data is split into two sets in order to create two models, one model with the training set and a different model with the validation set.",
+            "b": "Splitting data into two sets enables you to compare the labels that the model predicts with the actual known labels in the original dataset.",
+            "c": "Only split data when you use the Azure Machine Learning Designer, not in other machine learning scenarios."
+        },
+        "correct_answer": {
+            "b": "Splitting data into two sets enables you to compare the labels that the model predicts with the actual known labels in the original dataset."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "28": {
+        "question": "You are processing photos of runners in a race. You need to read the numbers on the runners shirts to identity the runners in the photos. Which type of computer vision should you use?",
+        "answers": {
+            "a": "facial recognition",
+            "b": "optical character recognition (OCR)",
+            "c": "semantic segmentation",
+            "d": "object detection"
+        },
+        "correct_answer": {
+            "b": "optical character recognition (OCR)"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "29": {
+        "question": "Which type of machine learning should you use to identify groups of people who have similar purchasing habits?",
+        "answers": {
+            "a": "classification",
+            "b": "regression",
+            "c": "clustering"
+        },
+        "correct_answer": {
+            "c": "clustering"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "30": {
+        "question": "From Azure Machine Learning designer, to deploy a real time inference pipeline as a service for others to consume, you must deploy the model to which of the following:",
+        "answers": {
+            "a": "a local web service",
+            "b": "Azure container instances",
+            "c": "Azure Kubernetes services (AKS)",
+            "d": "Azure Machine Learning computer"
+        },
+        "correct_answer": {
+            "c": "Azure Kubernetes services (AKS)"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "31": {
+        "question": "Which service should you use to extract text, key/value pairs, and table data automatically from scanned documents?",
+        "answers": {
+            "a": "Form Recognizer",
+            "b": "Text Analytics",
+            "c": "Language Understanding",
+            "d": "Custom Vision"
+        },
+        "correct_answer": {
+            "a": "Form Recognizer"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "32": {
+        "question": "You want to use the Computer Vision service to identify the location of individual items in an image. Which of the following features should you retrieve?",
+        "answers": {
+            "a": "Objects",
+            "b": "Tags",
+            "c": "Categories"
+        },
+        "correct_answer": {
+            "a": "Objects"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "33": {
+        "question": "Predicting how many vehicles will travel across a bridge on a given day is an example of ...",
+        "answers": {
+            "a": "classification",
+            "b": "regression",
+            "c": "clustering"
+        },
+        "correct_answer": {
+            "b": "regression"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "34": {
+        "question": "You want to use the Computer Vision service to analyze images and to use the Language service to analyze text. It is a must requirement that developers only use one key and endpoint to access all of your services. What kind of resource should you create in your Azure subscription?",
+        "answers": {
+            "a": "Computer Vision",
+            "b": "Cognitive Services",
+            "c": "Custom Vision"
+        },
+        "correct_answer": {
+            "b": "Cognitive Services"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "35": {
+        "question": "You need to develop a mobile app for employees to scan and store their expenses while travelling. Which type of computer vision should you use?",
+        "answers": {
+            "a": "semantic segmentation",
+            "b": "image classification",
+            "c": "object detection",
+            "d": "optical character recognition (OCR)"
+        },
+        "correct_answer": {
+            "d": "optical character recognition (OCR)"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "36": {
+        "question": "You use an Azure Machine Learning designer pipeline to train and test a binary classification model. You review the model's performance metrics in an Evaluate Model module and note that it has an AUC score of 0.3. What can you conclude about the model?",
+        "answers": {
+            "a": "The model can explain 30% of the variance between true and predicted labels.",
+            "b": "The model predicts accurately for 70% of test cases.",
+            "c": "The model performs worse than random guessing."
+        },
+        "correct_answer": {
+            "c": "The model performs worse than random guessing."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "37": {
+        "question": "You use Azure Machine Learning designer to create a training pipeline for a classification model. What must you do before deploying the model as a service?",
+        "answers": {
+            "a": "Create an,nference pipeline from the training pipeline.",
+            "b": "Add an Evaluate Model module to the training pipeline.",
+            "c": "Clone the training pipeline with a different name."
+        },
+        "correct_answer": {
+            "a": "Create an,nference pipeline from the training pipeline."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "38": {
+        "question": "You're using Azure Machine Learning designer to create a training pipeline for a binary classification model. You've added a dataset containing features and labels, a Two-Class Decision Forest module, and a Train Model module. You plan to use Score Model and Evaluate Model modules to test the trained model with a subset of the dataset that wasn't used for training. What's another module should you add?",
+        "answers": {
+            "a": "Join data",
+            "b": "Split data",
+            "c": "Select column in dataset"
+        },
+        "correct_answer": {
+            "b": "Split data"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "39": {
+        "question": "The ability to extract subtotals and totals from a receipt is a capability of the",
+        "answers": {
+            "a": "custom vision",
+            "b": "Form Recognizer",
+            "c": "Ink Recognizer",
+            "d": "Text Analytics"
+        },
+        "correct_answer": {
+            "b": "Form Recognizer"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    },
+    "40": {
+        "question": "You are building a tool that will process images from retail stores and identify the products of competitors. The solution will use a custom model. Which Azure Cognitive service should you use?",
+        "answers": {
+            "a": "Custom Vision",
+            "b": "Form Recognizer",
+            "c": "Face",
+            "d": "Computer Vision"
+        },
+        "correct_answer": {
+            "a": "Custom Vision"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}

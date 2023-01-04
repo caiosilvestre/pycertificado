@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Prova{% endblock %}
+{% block tema %}{% endblock %}
+{% block styles %}
+<link href={{ url_for('static', filename='/css/exibir_prova.css') }} rel = "stylesheet" type="text/css">
+
+{% endblock %}
+{% block content %}
+<div class="centralizarmenu">
+  <div class="centralizarmenudentro container-fluid">
+    <h1 size="7" style="text-align: center;" >{{prova.upper()}}</h1>
+    <div class="dupla_botoes">
+      <form class='botoes' method="post" action="/">
+          <input  class="btn btn-danger" type="submit" name="acao" value="Voltar">
+      </form>
+      <div style="width: 0.5vh;"></div>
+      <form class='botoes' method="post" action="/{{prova}}/1">
+          <input  class="btn btn-success" type="submit" name="acao" value="Iniciar">
+      </form>
+    </div>
+    </div>
+</div>
+
+
+{% endblock %}
