@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath pycertify.app
+web: gunicorn pycertify.app.app
