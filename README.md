@@ -10,6 +10,7 @@ Um projeto com objetivo de facilitar os estudos para certificações.
 
 - Python
 - Flask
+
 ![icons](https://skills.thijs.gg/icons?i=python,flask&theme=light)
 
 
@@ -21,4 +22,5 @@ Um projeto com objetivo de facilitar os estudos para certificações.
 
 
 ## 👽 Autor
+
 - [@caiosilvestre](https://www.github.com/caiosilvestre)
