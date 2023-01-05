@@ -2,3 +2,4 @@ env
 .flask
 .gitignore
 __pycache__
+.env
