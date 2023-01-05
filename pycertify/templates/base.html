@@ -12,20 +12,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">Provas</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tema</a>
-            <div class="dropdown-menu">
-            {% for tema in temas: %}
-              <form method="post">
-                <input  class="dropdown-item" type="submit" name="tema" value="{{tema}}">
-              </form>
-            {% endfor %}
-            </div>
-
-          </li>
-          <div style="width: 10vh;"></div>
-          </ul>
       </div>
     </nav>
   </head>
