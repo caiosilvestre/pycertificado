@@ -33,7 +33,7 @@
         <form id="resposta" method="post" action="">
           <input  class="btn btn-success" type="submit" name="resposta" value="Resposta">
         </form>
-        <form id= "next_question" method="post" action="/{{prova}}/{%if numquestion < 49%}{{numquestion+1}}{%else%}{{numquestion}}{% endif %}">
+        <form id= "next_question" method="post" action="/{{prova}}/{%if numquestion < total_questions%}{{numquestion+1}}{%else%}{{numquestion}}{% endif %}">
           <input  class="btn btn-info" type="submit" name="acao" value=">">
         </form>
       </div>
@@ -68,6 +68,20 @@
         {% for letter,answer in question['answers'].items():%}
         {{letter}}.innerHTML = "{{letter}}){{answer}}";
         {% endfor %}
+    }
+}
+</script>
+<script>
+  function resposta(){
+    let resposta = document.getElementsByClassName("active");
+    let btn = document.getElementById("resposta");
+    let btn_next = document.getElementById("next_question");
+    let array_btn_next = btn_next.action.split("/")
+    let num_question = array_btn_next[array_btn_next.length-1]
+    if({{total_questions}} == num_question){
+      btn.action = "resposta/"+(parseInt(num_question))+'/'+resposta[0].name
+    }else{
+    btn.action = "resposta/"+(parseInt(num_question)-1)+'/'+resposta[0].name
     }
 }
 </script>

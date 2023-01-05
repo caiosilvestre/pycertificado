@@ -2,7 +2,7 @@
     "1": {
         "question": "Qual servi\u00e7o da IA voc\u00ea deve usar para criar um bot de um documento de pergunta frequente (FAQ)?",
         "answers": {
-            "a": "Yana Macker",
+            "a": "QNA Maker",
             "b": "Entendimento de idiomas (Luis)",
             "c": "An\u00e1lise de texto",
             "d": "Texto da fala"
@@ -150,7 +150,7 @@
         "type": "multiple choice"
     },
     "11": {
-        "question": "A Acompany emprega uma equipe de agentes de atendimento ao cliente para fornecer suporte por telefone e e -mail aos clientes.A empresa desenvolve um Bot Webchat para fornecer respostas automatizadas para consultas comuns do cliente.\nQual benef\u00edcio comercial a empresa deve esperar como resultado da cria\u00e7\u00e3o da solu\u00e7\u00e3o de bots webchat?",
+        "question": "A empresa emprega uma equipe de agentes de atendimento ao cliente para fornecer suporte por telefone e e -mail aos clientes.A empresa desenvolve um Bot Webchat para fornecer respostas automatizadas para consultas comuns do cliente.\nQual benef\u00edcio comercial a empresa deve esperar como resultado da cria\u00e7\u00e3o da solu\u00e7\u00e3o de bots webchat?",
         "answers": {
             "a": "Aumento da venda",
             "b": "Uma carga de trabalho reduzida para os agentes de atendimento ao cliente",
@@ -265,7 +265,7 @@
         "type": "multiple choice"
     },
     "19": {
-        "question": "Prevendo quantas horas de horas extras uma pessoa de entrega funcionar\u00e1 com base no n\u00famero de ordem recebida \u00e9 um exemplo de ...",
+        "question": "Prevendo quantas horas de horas extras uma pessoa de entrega trabalhar\u00e1 com base no n\u00famero de ordem recebida \u00e9 um exemplo de ...",
         "answers": {
             "a": "classifica\u00e7\u00e3o.",
             "b": "clustering.",

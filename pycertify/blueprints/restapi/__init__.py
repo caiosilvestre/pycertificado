@@ -6,8 +6,7 @@ bp = Blueprint('restapi',
                 __name__,
                 url_prefix = '/api/v1')
 api = Api(bp)
-api.add_resource(provaResource,
-                 '/ia-900/')
+api.add_resource(provaResource,'/ia-900/')
 
 def init_app(app):
     app.register_blueprint(bp)

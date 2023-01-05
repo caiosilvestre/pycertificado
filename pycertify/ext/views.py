@@ -10,6 +10,7 @@ def init_app(app):
     @app.route('/', methods=['GET', 'POST'])
     def inicial():
         global tema
+        print(tema)
         provas = read_all_test()
         if request.method == 'POST':
             if request.form.get('tema') != None:
@@ -36,12 +37,13 @@ def init_app(app):
                 tema = request.form.get('tema').lower()
         question = read_question(prova, numquestion)
         test_pt = read_question(prova,numquestion,idioma='pt-br')
-        
+        total_questions = count_questions(prova)
         return render_template('exibir_questao.html',numquestion = numquestion, 
         question = question , tema_escolhido = tema, 
         temas = all_themes(),
         prova = prova,
-        prova_pt = test_pt) 
+        prova_pt = test_pt,
+        total_questions= total_questions) 
 
     @app.route('/<prova>/resposta/<int:numquestion>/<letter>', methods = ['GET','POST'])
     def questoes_resposta(prova,numquestion,letter):
@@ -52,9 +54,11 @@ def init_app(app):
         test_pt = read_question(prova,numquestion,idioma='pt-br')
         question = read_question(prova, numquestion)
         letter_answer_correct,explanation= read_answer(prova, numquestion)
+        total_questions = count_questions(prova)
         return render_template('exibir_questao_resposta.html',numquestion = numquestion, 
         question = question , tema_escolhido = tema, 
         temas = all_themes(),letter_answer = letter,
         letter_answer_correct = letter_answer_correct,
         explanation=explanation,prova = prova,
-        prova_pt = test_pt)
+        prova_pt = test_pt,
+        total_questions=total_questions)

@@ -1,7 +1,7 @@
 from flask import Flask
 #from pycertify.ext import configuration
 from pycertify.blueprints import restapi
-from pycertify.blueprints import views
+from pycertify.ext import views
 
 app = Flask(__name__)
 

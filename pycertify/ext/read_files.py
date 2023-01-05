@@ -9,6 +9,12 @@ def read_all_test():
     tests = os.listdir('./pycertify/provas/')
     return tests
 
+def read_test(prova, idioma = 'en-us'):
+    test_file = os.listdir(f'./pycertify/provas/{prova.lower()}/{idioma}')[0]
+    path = f'./pycertify/provas/{prova.lower()}/{idioma}/{test_file}'
+    test = read_json(path)
+    return test
+
 def read_question(prova, question, idioma = 'en-us'):
     test_file = os.listdir(f'./pycertify/provas/{prova.lower()}/{idioma}')[0]
     path = f'./pycertify/provas/{prova.lower()}/{idioma}/{test_file}'
@@ -25,3 +31,7 @@ def read_answer(prova, question):
         letter_correct_answer = letter
     
     return letter_correct_answer,correct_answer
+
+def count_questions(file_test):
+    total_questions = len(read_test(file_test).keys())
+    return total_questions

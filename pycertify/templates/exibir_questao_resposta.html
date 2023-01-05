@@ -33,7 +33,7 @@
         <form id="resposta" method="post" action="">
           <input  class="btn btn-info" type="submit" name="explicacao" value="Explicação">
         </form>
-        <form id= "next_question" method="post" action="/{{prova}}/{{numquestion+1}}">
+        <form id= "next_question" method="post" action="/{{prova}}/{%if numquestion < total_questions%}{{numquestion+1}}{%else%}{{numquestion}}{% endif %}">
           <input  class="btn btn-info" type="submit" name="acao" value=">">
         </form>
       </div>
