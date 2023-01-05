@@ -1,1 +1,1 @@
-web: gunicorn pycertify.app:app
+web: gunicorn app:app
