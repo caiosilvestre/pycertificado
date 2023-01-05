@@ -1,3 +1,4 @@
+"""
 from importlib import import_module
 from dynaconf import FlaskDynaconf
 
@@ -8,3 +9,4 @@ def load_extentions(app):
 
 def init_app(app):
     FlaskDynaconf(app)
+"""
