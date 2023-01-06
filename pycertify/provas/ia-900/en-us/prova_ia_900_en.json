@@ -508,7 +508,7 @@
     "37": {
         "question": "You use Azure Machine Learning designer to create a training pipeline for a classification model. What must you do before deploying the model as a service?",
         "answers": {
-            "a": "Create an,nference pipeline from the training pipeline.",
+            "a": "Create an inference pipeline from the training pipeline.",
             "b": "Add an Evaluate Model module to the training pipeline.",
             "c": "Clone the training pipeline with a different name."
         },
