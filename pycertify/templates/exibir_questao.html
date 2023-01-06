@@ -75,13 +75,19 @@
   function resposta(){
     let resposta = document.getElementsByClassName("active");
     let btn = document.getElementById("resposta");
+    
+    let btn_back = document.getElementById("back_question");
+    let array_btn_back = btn_back.action.split("/");
+    let num_question_back = parseInt(array_btn_back[array_btn_back.length-1]);    
+    
     let btn_next = document.getElementById("next_question");
-    let array_btn_next = btn_next.action.split("/")
-    let num_question = array_btn_next[array_btn_next.length-1]
-    if({{total_questions}} == num_question){
-      btn.action = "resposta/"+(parseInt(num_question))+'/'+resposta[0].name
+    let array_btn_next = btn_next.action.split("/");
+    let num_question = array_btn_next[array_btn_next.length-1];
+    
+    if({{total_questions}} == num_question && {{total_questions-1}} == num_question_back){
+      btn.action = "resposta/"+(parseInt(num_question))+'/'+resposta[0].name;
     }else{
-    btn.action = "resposta/"+(parseInt(num_question)-1)+'/'+resposta[0].name
+    btn.action = "resposta/"+(parseInt(num_question)-1)+'/'+resposta[0].name;
     }
 }
 </script>
