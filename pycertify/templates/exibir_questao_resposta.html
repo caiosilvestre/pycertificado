@@ -83,7 +83,7 @@ answer_correct.classList.add("active");
         label_idioma.innerHTML = "PT";
         question.innerHTML = "{{prova_pt['question'].replace('\n','')}}";
         {% for letter,answer in prova_pt['answers'].items():%}
-        {{letter}}.innerHTML = "{{letter}}){{answer}}";
+        {{letter}}.innerHTML = "{{letter}}) {{answer}}";
         {% endfor %}
         {% for letter,answer in prova_pt['correct_answer'].items():%}
           explanation.innerHTML = "{{letter}}) {{answer}}";
