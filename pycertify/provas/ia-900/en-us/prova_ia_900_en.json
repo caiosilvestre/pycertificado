@@ -560,3 +560,156 @@
         "type": "multiple choice"
     }
 }
+    "41": {
+        "question": "Automated machine learning provides you with the ability to include custom Python scripts in a training pipeline.",
+        "answers": {
+            "a": "Yes",
+            "b": "No"
+        },
+        "correct_answer": {
+            "a": "Yes"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "43": {
+        "question": "Automated machine learning implements machine learning solution without the need for programming experience.",
+        "answers": {
+            "a": "Yes",
+            "b": "No"
+        },
+        "correct_answer": {
+            "a": "Yes"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "44": {
+        "question": "Automated machine learning provides you with the ability to visually connect dataset and modules on an interactive canvas.",
+        "answers": {
+            "a": "Yes",
+            "b": "No"
+        },
+        "correct_answer": {
+            "a": "Yes"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "45": {
+        "question": "A score of 0,99 of sentiment analysis on a document using Language service. What does this score indicate about the document sentiment?",
+        "answers": {
+            "a": "The document is positive",
+            "b": "The document is neutral",
+            "c": "The document is negative"
+        },
+        "correct_answer": {
+            "a": "The document is positive"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "46": {
+        "question": "Wich services should you use to create a knowledge base for bots?",
+        "answers": {
+            "a": "Conversational Language Understanding",
+            "b": "Question Answering",
+            "c": "Azure Bot"
+        },
+        "correct_answer": {
+            "b": "Question Answering"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "47": {
+        "question": "A banking system that predicts wheter a loan will be repaid is an example of regression type of machine learning",
+        "answers": {
+            "a": "Yes",
+            "b": "No"
+        },
+        "correct_answer": {
+            "b": "No"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "48": {
+        "question": "A banking system that predicts wheter a loan will be repaid is an example of classification type of machine learning",
+        "answers": {
+            "a": "Yes",
+            "b": "No"
+        },
+        "correct_answer": {
+            "a": "Yes"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "49": {
+        "question": "When might you see NaN returned for score in Language Detection?",
+        "answers": {
+            "a": "When the score calculated by the service is outside the range of 0 to 1.",
+            "b": "When the predominant language in the text is mixed with other languages.",
+            "c": "When the language is a ambiguous."
+        },
+        "correct_answer": {
+            "c": "When the language is a ambiguous"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "50": {
+        "question": "Your campany is in business of providing customer support over the phone. During many years company has created a frequently asked question (FAQ) document. Company now wants to creeate a knowledge base that includes the questions and answers from tha FAQ with the least possible efford. What should you do?",
+        "answers": {
+            "a": "Create knowledge base from scratch and manually copy and paste the FAQ entries into it",
+            "b": "Import from the existing FAQ document into a new knowledge base.",
+            "c": "Import a pre-defined chating data source."
+        },
+        "correct_answer": {
+            "b": "Import from the existing FAQ document into a new knowledge base."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "51": {
+        "question": "Which of following is used to generate additional features?",
+        "answers": {
+            "a": "Feature selection.",
+            "b": "Feature engineering.",
+            "c": "Model Evaluation.",
+            "d": "Model training"
+        },
+        "correct_answer": {
+            "b": "Feature engineering."
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+    "52": {
+        "question": "You need to make the press releases of your company available in a range of languages. Which service should you use?",
+        "answers": {
+            "a": "Translator Text",
+            "b": "Text Analytics",
+            "c": "Speech",
+            "d": "Language Understanding(LUIS)"
+        },
+        "correct_answer": {
+            "a": "Translator Text"
+        },
+        "explanation": {},
+        "type": "multiple choice"
+    }
+}
+
+
