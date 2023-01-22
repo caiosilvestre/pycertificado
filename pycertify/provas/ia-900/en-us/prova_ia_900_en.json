@@ -558,8 +558,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "41": {
         "question": "Automated machine learning provides you with the ability to include custom Python scripts in a training pipeline.",
         "answers": {
@@ -571,8 +570,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "43": {
         "question": "Automated machine learning implements machine learning solution without the need for programming experience.",
         "answers": {
@@ -584,8 +582,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "44": {
         "question": "Automated machine learning provides you with the ability to visually connect dataset and modules on an interactive canvas.",
         "answers": {
@@ -597,8 +594,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "45": {
         "question": "A score of 0,99 of sentiment analysis on a document using Language service. What does this score indicate about the document sentiment?",
         "answers": {
@@ -611,8 +607,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "46": {
         "question": "Wich services should you use to create a knowledge base for bots?",
         "answers": {
@@ -625,8 +620,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "47": {
         "question": "A banking system that predicts wheter a loan will be repaid is an example of regression type of machine learning",
         "answers": {
@@ -638,8 +632,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "48": {
         "question": "A banking system that predicts wheter a loan will be repaid is an example of classification type of machine learning",
         "answers": {
@@ -651,8 +644,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "49": {
         "question": "When might you see NaN returned for score in Language Detection?",
         "answers": {
@@ -665,8 +657,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "50": {
         "question": "Your campany is in business of providing customer support over the phone. During many years company has created a frequently asked question (FAQ) document. Company now wants to creeate a knowledge base that includes the questions and answers from tha FAQ with the least possible efford. What should you do?",
         "answers": {
@@ -679,8 +670,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "51": {
         "question": "Which of following is used to generate additional features?",
         "answers": {
@@ -694,8 +684,7 @@
         },
         "explanation": {},
         "type": "multiple choice"
-    }
-}
+    },
     "52": {
         "question": "You need to make the press releases of your company available in a range of languages. Which service should you use?",
         "answers": {
