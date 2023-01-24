@@ -1,5 +1,5 @@
 
-
+## Arquivo utilizado para armazenar os temas, e setar um tema principal.
 def all_themes():
     themes = ['Vapor','Cerulean','Cosmo', 
          'Cyborg', 'Darkly', 'Flatly', 
