@@ -5,7 +5,7 @@ from .appearance import *
 from .regex import *
 
 #Arquivo utilizado para gerenciar as rodas e paginas que serão exibidas
-
+#os return do arquivo realizam o envio de variáveis para o arquivo a html, para serem utilizados pelo JINJA na construção do WEB APP
 tema = set_principal_theme()
 
 #Função utilizada para passar o app
@@ -48,9 +48,9 @@ def init_app(app):
         if request.method == 'POST':
             if request.form.get('tema') != None:
                 tema = request.form.get('tema').lower()
-        # função para ler a questão e trazer ela     
+        # Função para ler a questão e trazer ela     
         question = read_question(prova, numquestion)
-        # função para trazer a pergunta traduzida
+        # Função para trazer a pergunta traduzida
         test_pt = read_question(prova,numquestion,idioma='pt-br')
         #Função volta o total de questões da prova
         total_questions = count_questions(prova)
@@ -64,13 +64,20 @@ def init_app(app):
     #página responsável por exibir as resposta da questão
     @app.route('/<prova>/resposta/<int:numquestion>/<letter>', methods = ['GET','POST'])
     def questoes_resposta(prova,numquestion,letter):
+        #parte desabilitade, utilizada para escolher o tema da página
         global tema
         if request.method == 'POST':
             if request.form.get('tema') != None:
                 tema = request.form.get('tema').lower()
+        
+        
+        # Função para trazer a pergunta traduzida
         test_pt = read_question(prova,numquestion,idioma='pt-br')
+        #Função volta o total de questões da prova
         question = read_question(prova, numquestion)
+        #Função volta a resposta correta
         letter_answer_correct,explanation= read_answer(prova, numquestion)
+        #Função volta o total de questões da prova
         total_questions = count_questions(prova)
         
         return render_template('exibir_questao_resposta.html',numquestion = numquestion, 
