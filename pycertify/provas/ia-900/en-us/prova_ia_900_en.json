@@ -34,7 +34,7 @@
     "3": {
         "question": "Which scenario is an example of a webchat bot?",
         "answers": {
-            "a": "Determine whether reviews entered on a website for a concert are positive or negative, and thenadd a thumbs up or thumbs down emoji to the reviews.",
+            "a": "Determine whether reviews entered on a website for a concert are positive or negative, and then add a thumbs up or thumbs down emoji to the reviews.",
             "b": "Translate into English questions entered by customers at a kiosk so that the appropriate person can call the customers back.",
             "c": " Accept questions through email, and then route the email messages to the correct personbased on the content of the message.",
             "d": " From a website interface, answer common questions about scheduled events and ticketpurchases for a music festival."
@@ -54,7 +54,7 @@
             "d": "Randomly split the data into columns for training and columns for evaluation."
         },
         "correct_answer": {
-            "b": "The Split Data module is particularly useful when you need to separate data into training and testing sets. Use the Split Rows option if you want to divide the data into two parts.You can specify the percentage of data to put in each split, but by default, the data isdivided 50-50. You can also randomize the selection of rows in each group and usestratified sampling."
+            "b": "The Split Data module is particularly useful when you need to separate data into training and testing sets. Use the Split Rows option if you want to divide the data into two parts.You can specify the percentage of data to put in each split, but by default, the data is divided 50-50. You can also randomize the selection of rows in each group and use stratified sampling."
         },
         "explanation": {},
         "type": "multiple choice"
