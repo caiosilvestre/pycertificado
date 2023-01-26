@@ -1,8 +1,9 @@
 
 # Pycertify
-Um projeto com objetivo de facilitar os estudos para certificações.
+The project have the object to make easy study for certifications.[en]
+Um projeto com objetivo de facilitar os estudos para certificações.[br]
 
-👇👇Projeto Upado no  Railway👇👇
+👇👇Up on  Railway👇👇
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://web-production-c2cf.up.railway.app/)
 
@@ -15,7 +16,7 @@ Um projeto com objetivo de facilitar os estudos para certificações.
 
 
 
-## 💻 Apresentação 
+## 💻 Presentation
 
 ![App Screenshot](https://raw.githubusercontent.com/caiosilvestre/pycertificado/main/img_readme/Frame%201git_site.png)
 ![App Screenshot](https://raw.githubusercontent.com/caiosilvestre/pycertificado/main/img_readme/Frame%202git_site.png)
