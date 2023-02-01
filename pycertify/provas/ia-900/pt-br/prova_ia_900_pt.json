@@ -211,7 +211,7 @@
         "type": "multiple choice"
     },
     "15": {
-        "question": "Sua empresa est\u00e1 explorando o uso de tecnologias de reconhecimento de voz em seus dispositivos dom\u00e9sticos inteligentes.A empresa deseja identificar quaisquer barreiras que possam deixar de fora grupos de usu\u00e1rios espec\u00edficos.Este exemplo de qual princ\u00edpio orientador da Microsoft para AL respons\u00e1vel?",
+        "question": "Sua empresa est\u00e1 explorando o uso de tecnologias de reconhecimento de voz em seus dispositivos dom\u00e9sticos inteligentes.A empresa deseja identificar quaisquer barreiras que possam deixar de fora grupos de usu\u00e1rios espec\u00edficos.Este exemplo de qual princ\u00edpio orientador da Microsoft para IA respons\u00e1vel?",
         "answers": {
             "a": "Responsabilidade",
             "b": "Justi\u00e7a",
@@ -225,7 +225,7 @@
         "type": "multiple choice"
     },
     "16": {
-        "question": "Uma concession\u00e1ria de moradia deseja usar dados hist\u00f3ricos de vendas de apartamentos para treinar um modelo de aprendizado de m\u00e1quina.O modelo deve prever o pre\u00e7o de um apartamento usado com base em sua localiza\u00e7\u00e3o, tamanho e envelhecimento do apartamento.Que tipo de modelo de aprendizado de m\u00e1quina a concession\u00e1ria deve usar o aprendizado de m\u00e1quina automatizado para criar?",
+        "question": "Uma concession\u00e1ria de moradia deseja usar dados hist\u00f3ricos de vendas de apartamentos para treinar um modelo de aprendizado de m\u00e1quina. O modelo deve prever o pre\u00e7o de um apartamento usado com base em sua localiza\u00e7\u00e3o, tamanho e envelhecimento do apartamento. Que tipo de modelo de aprendizado de m\u00e1quina a concession\u00e1ria deve usar o aprendizado de m\u00e1quina automatizado para criar?",
         "answers": {
             "a": "Classifica\u00e7\u00e3o",
             "b": "Regress\u00e3o",
@@ -238,7 +238,7 @@
         "type": "multiple choice"
     },
     "17": {
-        "question": "Um banco deseja usar registros hist\u00f3ricos de reembolso do cart\u00e3o de cr\u00e9dito para categorizar os pedidos de cart\u00e3o de cr\u00e9dito como risco de baixo risco ou risco com base em caracter\u00edsticas como o valor do cr\u00e9dito, a receita do mutu\u00e1rio e o per\u00edodo de cr\u00e9dito.Que tipo de modelo de aprendizado de m\u00e1quina o banco deve usar o aprendizado de m\u00e1quina automatizado para criar?",
+        "question": "Um banco deseja usar registros hist\u00f3ricos de reembolso do cart\u00e3o de cr\u00e9dito para categorizar os pedidos de cart\u00e3o de cr\u00e9dito como risco de baixo risco ou risco com base em caracter\u00edsticas como o valor do cr\u00e9dito, a receita do mutu\u00e1rio e o per\u00edodo de cr\u00e9dito. Que tipo de modelo de aprendizado de m\u00e1quina o banco deve usar o aprendizado de m\u00e1quina automatizado para criar?",
         "answers": {
             "a": "Classifica\u00e7\u00e3o",
             "b": "Regress\u00e3o",
@@ -292,7 +292,7 @@
         "type": "multiple choice"
     },
     "21": {
-        "question": "Voc\u00ea est\u00e1 criando um pipeline de treinamento para um modelo de regress\u00e3o.Voc\u00ea usa um conjunto de dados que possui v\u00e1rias colunas num\u00e9ricas nas quais os valores est\u00e3o em diferentes escalas.Voc\u00ea deseja transformar as colunas num\u00e9ricas para que os valores sejam todos em uma escala semelhante.Voc\u00ea tamb\u00e9m deseja que a transforma\u00e7\u00e3o escala em rela\u00e7\u00e3o aos valores m\u00ednimo e m\u00e1ximo em cada coluna.Qual m\u00f3dulo voc\u00ea deve adicionar ao pipeline?",
+        "question": "Voc\u00ea est\u00e1 criando um pipeline de treinamento para um modelo de regress\u00e3o. Voc\u00ea usa um conjunto de dados que possui v\u00e1rias colunas num\u00e9ricas nas quais os valores est\u00e3o em diferentes escalas. Voc\u00ea deseja transformar as colunas num\u00e9ricas para que os valores sejam todos em uma escala semelhante. Voc\u00ea tamb\u00e9m deseja que a transforma\u00e7\u00e3o escala em rela\u00e7\u00e3o aos valores m\u00ednimo e m\u00e1ximo em cada coluna.Qual m\u00f3dulo voc\u00ea deve adicionar ao pipeline?",
         "answers": {
             "a": "Selecione colunas em um conjunto de dados",
             "b": "Normalizar dados",
@@ -319,7 +319,7 @@
         "type": "selection correct answers"
     },
     "23": {
-        "question": "Voc\u00ea usa o Azure Machine Learning Designer para criar um pipeline de treinamento para um modelo de classifica\u00e7\u00e3o.O que voc\u00ea deve fazer antes de implantar o modelo como servi\u00e7o?",
+        "question": "Voc\u00ea usa o Azure Machine Learning Designer para criar um pipeline de treinamento para um modelo de classifica\u00e7\u00e3o. O que voc\u00ea deve fazer antes de implantar o modelo como servi\u00e7o?",
         "answers": {
             "a": "Crie um pipeline de infer\u00eancia a partir do pipeline de treinamento",
             "b": "Adicione um m\u00f3dulo de avalia\u00e7\u00e3o do modelo ao pipeline de treinamento",
@@ -332,7 +332,7 @@
         "type": "multiple choice"
     },
     "24": {
-        "question": "Voc\u00ea deseja usar o aprendizado de m\u00e1quina automatizado para treinar um modelo de regress\u00e3o com a melhor pontua\u00e7\u00e3o R2 poss\u00edvel.Como voc\u00ea deve configurar o experimento automatizado de aprendizado de m\u00e1quina?",
+        "question": "Voc\u00ea deseja usar o aprendizado de m\u00e1quina automatizado para treinar um modelo de regress\u00e3o com a melhor pontua\u00e7\u00e3o R2 poss\u00edvel. Como voc\u00ea deve configurar o experimento automatizado de aprendizado de m\u00e1quina?",
         "answers": {
             "a": "Defina a m\u00e9trica principal para a pontua\u00e7\u00e3o R2",
             "b": "Bloqueie todos os algoritmos que n\u00e3o sejam o aumento de gradiente",
